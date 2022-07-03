@@ -1,0 +1,178 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    font-family: "Rubik", sans-serif;
+    color: #433030;
+    line-height: 25px;
+    overflow-x: hidden;
+    position: relative;
+    width: 100%;
+}
+header{
+    margin: 0px;
+    padding: 0px;
+    height: 20em;
+    background-color: #C0C0C0;
+  }
+h1,
+h2 {
+    font-family: "Rubik", sans-serif;
+    color: #2C272E;
+}
+
+a {
+    color: #3f3434
+}
+
+a:hover {
+    color: #9D5C0D
+}
+
+.card {
+    background: rgb(255, 255, 255);
+    padding: 30px;
+    border: 1px solid lightgrey;
+    margin: 15px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.card:hover {
+    border-color: #7ECE90;
+    border: 0.12rem solid;
+}
+
+
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+    background: rgb(255, 255, 255);
+    padding: 0;
+    border: 1px solid lightgrey;
+    margin: 0;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.list-inline li a {
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.container {
+    width: 500px;
+    /* This sets the width */
+    margin: 0 auto;
+    /* This automatically sets left/right margins */
+}
+
+h3 {
+    color: #0d4b1c;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.imge {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+
+}
+
+.imge:hover {
+    border-color: #7ECE90;
+    border: 0.12rem solid;
+}
+
+@media (max-width: 10000px) {
+    .container {
+        width: 900px;
+    }
+}
+
+
+@media (max-width: 960px) {
+    .container {
+        width: 700px;
+    }
+}
+
+@media (max-width: 720px) {
+    .container {
+        width: 500px;
+    }
+}
+
+@media (max-width: 540px) {
+    .container {
+        width: 400px;
+    }
+}
+
+
+ul {
+     height: 50px;
+    list-style-type: none;
+    position: sticky;
+    display: flex;
+    margin: 0;
+    top: 0;
+    background-color: rgb(229, 222, 222);
+    z-index: 2000;
+    justify-content:center;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 600;
+ 
+}
+
+li {
+     
+    text-align: center;
+    
+    
+    
+
+}
+
+li a {
+    display: flex;
+    color: gray;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+    
+    
+
+}
+
+ li a:hover{
+    border-color: rgb(109, 92, 92);
+    color: rgb(109, 92, 92);
+    
+  }
+.donee{
+margin: 0%;
+float: left;
+
+ height: 35px;
+background-color: rgb(229, 222, 222);
+padding-top: 15px;
+padding-left: 15px;
+font-family: Impact ; 
+font-size: 4vw;
+
+ 
+ 
+
+}
+.navb{
+    height: 50px;
+     
+}

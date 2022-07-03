@@ -1,0 +1,202 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    font-family: "Rubik", sans-serif;
+    color: #433030;
+    line-height: 25px;
+    overflow-x: hidden;
+    position: relative;
+    width: 100%;
+}
+
+//some of the classes maybe declred and not used 
+header{
+    margin: 0px;
+    padding: 0px;
+    height: 20em;
+    background-color: #C0C0C0;
+}
+  
+  .wrap {
+    height: 420px;
+    width: 654px;
+    margin: 50px auto;
+    border-radius: 7px 7px 7px 7px;
+     -webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+    background-color: #000;
+  }
+  
+  .card-img {
+    float: left;
+    height: 327px;
+    width: 327px;
+    object-fit:fill;
+    border-radius: 50%;
+  }
+  
+  .card-img img {
+   
+    object-fit: cover;
+    border-radius: 50%;
+    
+  }
+  
+  .card-info {
+    float: left;
+    height: 420px;
+    width: 327px;
+    border-radius: 0 7px 10px 7px;
+    background-color: rgb(229, 222, 222);
+  }
+  
+  .card-text {
+    height: 300px;
+    width: 327px;
+    text-align: center;
+    align-content: center;
+  }
+  
+  .card-text h1 {
+    margin: 0 0 0 0;
+    padding-top: 52px;
+    font-size: 34px;
+    color: #474747;
+    text-align: center;
+    align-content: center;
+  }
+  
+  .card-text h1,
+  .card-price-btn p {
+    font-family: 'Bentham', serif;
+    text-align: center;
+    align-content: center;
+  }
+  
+  .card-text h2 {
+    margin: 0 0 47px 38px;
+    font-size: 13px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #d2d2d2;
+    letter-spacing: 0.2em;
+  }
+  
+  .card-text p {
+    height: 200px;
+    margin: 0 0 0 0;
+    font-family: 'Playfair Display', serif;
+    color: #393636;
+    line-height: 1.7em;
+    font-size: 15px;
+    font-weight: lighter;
+    overflow: hidden;
+    
+  }
+  
+ 
+  
+  span {
+    display: inline-block;
+    height: 50px;
+    font-family: 'Suranna', serif;
+    font-size: 34px;
+  }
+  
+
+
+  ul {
+    height: 50px;
+   list-style-type: none;
+   position: sticky;
+   overflow: hidden;
+   display: flex;
+   margin: 0;
+   top: 0;
+   background-color: rgb(229, 222, 222);
+   z-index: 2000;
+   justify-content:center;
+   font-family: "Josefin Sans", sans-serif;
+   font-weight: 600;
+   
+
+}
+
+.qoute{
+ margin-left: 20px;
+}
+
+li {
+    
+   text-align: center;
+   
+   
+   
+
+}
+
+li a {
+   display: flex;
+   color: gray;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   
+   
+   
+
+}
+
+li a:hover{
+    border-color: rgb(109, 92, 92);
+}
+.donee{
+margin: 0%;
+float: left;
+
+height: 35px;
+background-color: rgb(229, 222, 222);
+padding-top: 15px;
+padding-left: 15px;
+font-family: Impact ; 
+font-size: 3vw;
+
+
+
+
+}
+
+ div li a:hover{
+  border-color: rgb(109, 92, 92);
+  color: #433030;
+}
+.navb{
+   height: 50px;
+    
+}
+
+@media (max-width: 660px) {
+.card-img{
+  display: none;
+}
+.card-info{
+  justify-content: center;
+  box-shadow: #474747;
+  border: 2px solid burlywood;
+}
+.card-info:hover{
+  display: block;
+}
+
+.wrap{
+  width: 325px;
+  align-content: center;
+  display: flex;
+
+  
+}
+}

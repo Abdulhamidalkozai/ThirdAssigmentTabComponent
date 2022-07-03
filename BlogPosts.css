@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Open+Sans');
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    font-family: "Rubik", sans-serif;
+    color: #433030;
+    line-height: 25px;
+    overflow-x: hidden;
+    position: relative;
+    width: 100%;
+}
+header{
+    margin: 0px;
+    padding: 0px;
+    height: 20em;
+    background-color: #C0C0C0;
+  }
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, 0.5fr);
+    grid-auto-rows: auto;
+    grid-gap: -8px;
+    margin: 10px;
+    align-items: center;
+    overflow: hidden;
+    justify-content:center;
+  
+}
+
+ .square{
+     position:inherit;
+    width:auto ;
+    height: auto;
+    min-width: 280px;
+    margin: 20px 25px 40px 25px;
+    display: flex;
+    flex-direction: column;
+    background: rgb(255, 255, 255);
+    padding: 30px;
+    border: 1px solid lightgrey;
+    margin: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+     
+    border-radius: 20px;
+    text-align: start;
+    padding-top: auto;
+    padding-bottom: auto;
+    padding-left: auto;
+    padding-right: auto;
+ }
+ .square:hover{
+     border: 2px solid chartreuse;
+ }
+
+.Imagemask{
+    max-width: 100%; 
+    height: 200px;
+    clip: rect(0px, 460px, 220px, 0px);
+    object-fit: cover;
+    border-radius: 7px;
+     
+    
+     
+       
+    
+}
+
+
+.h1{
+  margin: auto;
+  text-align: left;
+  margin-top: 20px;
+   margin-left: 1px;
+  align-items: flex-start;
+  
+  font-family: 'Merriweather', serif;
+  font-size:2.3vw;
+}
+p{
+    flex-direction: column;
+    align-items: center;
+ 
+    font-size:1.7vw;
+    margin-left: 1px;
+    line-height: 10px;
+    font-family: "Varela Round", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #444444;
+    margin-top: 15px;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+      text-overflow: ellipsis;
+      overflow:hidden; 
+      
+      white-space:pre-line;
+ padding-left: 30px;
+ padding-right: 30px;
+ font-family: 'Open Sans', sans-serif;
+ font-size: 12px;
+ color: #C8C8C8;
+ line-height: 18px; */
+}
+
+.button {
+ margin-left: 1px;
+ width: auto;
+ font-size: 1.8vw;
+ background-color: aqua;
+ border: 3px;
+ margin-top: 1vw;
+  margin-right: 7vw;
+  padding: 1vw 1.2vw;
+  background-color: #473d19;
+  color: white;
+  text-decoration: none;
+}
+ 
+.button:hover{
+    background-color: rgb(8, 130, 138);
+}
+
+@media (max-width: 700px) {
+    .container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-auto-rows: auto;
+         grid-gap: -8px;
+        margin: 5px;
+        align-items: center;
+        overflow: hidden;
+        justify-content:center;
+      
+    }
+}
+
+ 
+
+ul {
+    position: sticky;
+    height: 50px;
+   list-style-type: none;
+    display: flex;
+   margin: 0;
+   top: 0;
+   background-color: rgb(229, 222, 222);
+   z-index: 2000;
+   justify-content:center;
+   font-family: "Josefin Sans", sans-serif;
+   font-weight: 600;
+ 
+
+}
+
+li {
+    
+   text-align: center;
+   
+   
+   
+
+}
+
+li a {
+   display: flex;
+   color: gray;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   
+   
+   
+
+}
+
+div li a:hover{
+    border-color: rgb(109, 92, 92);
+    color: #433030;
+  }
+
+.donee{
+margin: 0%;
+float: left;
+
+height: 35px;
+background-color: rgb(229, 222, 222);
+padding-top: 15px;
+padding-left: 15px;
+font-size: 3vw;
+font-family: Impact ; 
+
+
+
+
+}
+.navb{
+   height: 50px;
+    
+}

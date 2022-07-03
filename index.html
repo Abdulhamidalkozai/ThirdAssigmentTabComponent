@@ -1,0 +1,199 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Abdul Hamid">
+    <meta name="description" content="Abdul's Personal Website">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="keywords" content="Student, Programmer, Developer, Fullstack Web Development, JavaScript">
+    <link rel="stylesheet" href="style.css">
+     
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+    </style>
+    <title>Abdul Hamid Page</title>
+
+<div>
+<style>
+body {font-family: Arial;}
+
+
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+      position: sticky;
+    display: flex;
+    margin: 0;
+    top: 0;
+    background-color: rgb(229, 222, 222);
+    z-index: 2000;
+    justify-content:center;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 500;
+
+
+}
+
+
+.tab button {
+color:gray;
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 600;
+}
+
+
+.tab button:hover {
+  background-color: white;
+}
+
+
+.tab button.active {
+  background-color: #ccc;
+}
+
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+.heeader{
+  font-size: 17px;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 600;
+
+}
+
+</style>
+</head>
+<body>
+<h1 class="heeader">COODEWEKEEND BOOTCAMP Assignments</h1>
+
+
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'first')">1st Assig.</button>
+  <button class="tablinks" onclick="openCity(event, 'Second')">2nd Assign.</button>
+  <button class="tablinks" onclick="openCity(event, 'Third')">3rd Assign.</button>
+<button class="tablinks" onclick="openCityOf(event)">Close</button>
+</div>
+
+<div id="first" class="tabcontent">
+  <h4>first Assignment:</h4>
+<p>Create a guid or tutorial in form of a blog post where you explain how the web works using the knowledge gained in the sesion in also using extra resources on the web related to this.</p>
+</div>
+
+<div id="Second" class="tabcontent">
+  <h4>Second Assignment:</h4>  
+<p>The assignment will be to build a profile/blog website for your selelf with following Items.
+<ol>
+<li>
+it should have an HomePage 
+</li>
+<li>
+a profile Picture 
+</li>
+<li>
+your title and short Description 
+</li>
+<li>
+ a list f yu of your blog posts
+</li>
+</ol>
+ </p> 
+
+</div>
+
+<div id="Third" class="tabcontent">
+  <h4>Third Assignment: Develope a Tab Component</h4>
+  <p>using pure HTML,CSS & Js ,Creat a tab component
+</p>
+</div>
+
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+function openCityOf(evt){
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+}
+</script>
+</div>
+
+    <div class="navb">
+
+        <p class="donee">BlogPosts</p>
+        <ul>
+            
+            <li><a class="active" href="./HomePage.html">HOME</a></li>
+            <li><a href="./BlogPosts.html">BLOGS</a></li>
+
+            <li><a href="#about">ABOUT</a></li>
+        </ul>
+    </div>
+
+
+
+<script type="text/javascript" src="https://tiiny.host/ad-script.js"></script><script defer data-domain="abdul-hamid-page.tiiny.site" src="https://analytics.tiiny.site/js/plausible.js"></script></head>
+
+<body>
+    <Navbar />
+    <div class="container">
+        <div class="card">
+            <h1>Hey! I'm Abdul</h1>
+            <h2>I'm a software developer </h2>
+            <img class="imge" src="https://i.postimg.cc/gjSj5rfL/Abdul-Hamid-Alokzai-pic.png"
+                alt="Abdul's photo is unavailable">
+            <p>I'm a B.Tech Computer Science student at PTU. I'm into software development,
+                travelling, writing about all things self-development.
+               <br> Why do I like technology?:
+                 It's Fun. It Gives You Better Opportunities. It Helps You Be “Greener” It Saves Time and Money.
+            </p>
+
+            <br></br>
+
+            <h3>Follow me</h3>
+            <ul class="list-inline">
+                <li><a href="https://medium.com/@kefayat_hameed"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="https://github.com/abdulhamidalokzai"><i class="fab fa-github"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/abdul-hamid-alokzai-6216a0125"><i
+                            class="fab fa-linkedin"></i></a></li>
+            </ul>
+        </div>
+        <!-- 
+        <div class="card">
+
+        </div> -->
+    </div>
+
+</body>
+
+</html>
